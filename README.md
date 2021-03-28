@@ -46,10 +46,10 @@ http://www.rubydoc.info/github/mimemagicrb/mimemagic
 Tests
 =====
 
-```console
-$ bundle install
+```
+bundle install
 
-$ bundle exec rake test
+rake test
 ```
 
 Authors
@@ -62,4 +62,4 @@ Authors
 LICENSE
 =======
 
-{file:LICENSE MIT}
+MIT

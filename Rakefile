@@ -1,15 +1,9 @@
 require 'rake/testtask'
-require 'rake/clean'
-
-namespace :ext do
-  load 'ext/mimemagic/Rakefile'
-end
-CLOBBER.include("lib/mimemagic/path.rb")
 
 task :default => %w(test)
 
 desc 'Run tests with minitest'
-Rake::TestTask.new("test" => "ext:default") do |t|
+Rake::TestTask.new do |t|
   t.libs << 'test'
   t.pattern = 'test/*_test.rb'
 end
