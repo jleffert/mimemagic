@@ -3,10 +3,6 @@ provided by freedesktop.org (see http://freedesktop.org/wiki/Software/shared-mim
 
 [![Gem Version](https://img.shields.io/gem/v/mimemagic.svg)](http://rubygems.org/gems/mimemagic)
 
-*Warning:* If you are using a version of MimeMagic < 0.3.7, or version 0.4.0, you may well be in breach of the
-GPL due to a GPL licensed dependency that was bundled with this gem. You should update to a version >= 0.3.7 
-as soon as possible. See https://github.com/minad/mimemagic/issues/97 for details.
-
 Dependencies
 ============
 
@@ -45,23 +41,25 @@ You can add your own magic with `MimeMagic.add`.
 API
 ===
 
-http://www.rubydoc.info/github/minad/mimemagic
+http://www.rubydoc.info/github/mimemagicrb/mimemagic
 
 Tests
 =====
 
-```
-bundle install
+```console
+$ bundle install
 
-rake test
+$ bundle exec rake test
 ```
 
 Authors
 =======
 
-Daniel Mendler
+* Daniel Mendler
+* Jon Wood
+* [MimeMagic Contributors](https://github.com/mimemagicrb/mimemagic/graphs/contributors)
 
 LICENSE
 =======
 
-MIT
+{file:LICENSE MIT}
